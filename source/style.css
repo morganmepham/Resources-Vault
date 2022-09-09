@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    background-color: #96DAE9;
+    font-size: 16px;
+    font-family: 'Cabin', 'Roboto Condensed', sans-serif;
+}
+
+/* Title */
+.title{
+    font-size: 4rem;
+    color: #033941;
+    text-shadow: #01262B -0.2rem -0.05rem;
+    text-align: center;
+    margin-top: 7rem;
+}
+.lock-emoji{
+    font-size: 4rem;
+    position: relative;
+    top: 1rem;
+    left: 49%;
+}
+
+/*Form*/
+.password-request{
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    height: 20rem;
+}
+.password-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    height: 50%;
+    width: 30%;
+
+    border-radius: 1rem;
+}
+.password-input{
+    height: 40%;
+    width: 70%;
+    font-size: 2.7rem;
+}
+.password-submit{
+    height: 41%;
+    width: 15%;
+    margin-left: 5%;
+
+    background-color: #FFF;
+}
+.password-submit:hover{
+    animation-name: passwordSubmitColor;
+    animation-duration: 1s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+}
+
+/*Unlocked Body*/
+.vault-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 4.5rem;
+
+    height: 25rem;
+
+    justify-items: center;
+    align-items: center;
+
+    display: none;
+}
+.small-vaults{
+    width: 24rem;
+    height: 14rem;
+    font-size: 2.2rem;
+    color: #FFF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1.2rem;
+    font-family: 'Roboto Condensed';
+}
+.small-vaults:hover{
+    width: 28rem;
+    height: 16rem;
+    font-size: 2.8rem;  
+}
+
+.HTML-vault{
+    grid-column: 1/2;
+
+    background-color: #3EBC3C;
+    justify-self: flex-end;
+}
+.CSS-vault{
+    grid-column: 2/3;
+
+    background-color: #1CA7D2;
+}
+.JS-vault{
+    grid-column: 3/4;
+
+    background-color: #966BB8;
+    justify-self: flex-start;
+}
+.small-vault-emojis{
+    font-size: 3rem;
+}
+
+
+/*footer */
+.footer-text1{
+    text-align: center;
+    font-size: 2.6rem;
+
+    position: relative;
+    top: 2rem;
+}
+.footer-text2{
+    text-align: center;
+    font-size: 3rem;
+
+    position: relative;
+    top: 2rem;
+}
+
+
+
+/* test */
+
+.HTML-unlocked-div{
+    width: 30rem;
+    height: 30rem;
+    background-color: peru;
+}
+
+
+@keyframes passwordSubmitColor {
+    from {background-color: #FFF;}
+    to {background-color: #3EBC3C;}
+}
