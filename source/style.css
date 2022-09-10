@@ -325,7 +325,7 @@ a{
         font-size: 12px;
     }
     .lock-emoji{
-        left: 18rem;
+        left: 44%;
     }
     .footer-text1{
         top: 15rem;
@@ -336,7 +336,7 @@ a{
     }
     .vault-container{
         margin-top: 3rem;
-        display: grid;
+        display: none;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-items: center;
@@ -398,7 +398,7 @@ a{
         font-size: 16px;
     }
     .lock-emoji{
-        left: 18rem;
+        left: 44%;
     }
     .footer-text1{
         top: 15rem;
@@ -409,7 +409,7 @@ a{
     }
     .vault-container{
         margin-top: 3rem;
-        display: grid;
+        display: none;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-items: center;
@@ -463,11 +463,18 @@ a{
         height: 30rem;
         width: 30rem;
     }
-}
 
+}
+@media only screen and (min-width: 850px) and (max-width: 1200px){
+    html{
+        font-size: 12px;
+    }
+
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px){
     html{
         font-size: 14px;
     }
+
 }
