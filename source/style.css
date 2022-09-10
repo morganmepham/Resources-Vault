@@ -13,7 +13,7 @@ html{
 /* Title */
 .title-box{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
 }
 .back-button{
     grid-column: 1/2;
@@ -362,6 +362,10 @@ a{
         height: 14rem;
         font-size: 2.2rem;
     }
+    .back-button{
+        position: relative;
+        left: 1.5rem;
+    }
     .back-button-text:hover{
         font-size: 2.2rem;
     }
@@ -378,17 +382,17 @@ a{
     .unlocked-html{
         margin: 3rem;
         height: 33rem;
-        width: 30rem;
+        width: 25rem;
     }
     .unlocked-css{
         margin: 3rem;
         height: 35.5rem;
-        width: 30rem;
+        width: 25rem;
     }
     .unlocked-js{
         margin: 3rem;
         height: 30rem;
-        width: 30rem;
+        width: 25rem;
     }
 }
 
@@ -469,12 +473,42 @@ a{
     html{
         font-size: 12px;
     }
+    .unlocked-html{
+        margin: 3rem;
+        height: 33rem;
+        width: 30rem;
+    }
+    .unlocked-css{
+        margin: 3rem;
+        height: 35.5rem;
+        width: 30rem;
+    }
+    .unlocked-js{
+        margin: 3rem;
+        height: 30rem;
+        width: 30rem;
+    }
 
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px){
     html{
         font-size: 14px;
+    }
+    .unlocked-html{
+        margin: 3rem;
+        height: 33rem;
+        width: 30rem;
+    }
+    .unlocked-css{
+        margin: 3rem;
+        height: 35.5rem;
+        width: 30rem;
+    }
+    .unlocked-js{
+        margin: 3rem;
+        height: 30rem;
+        width: 30rem;
     }
 
 }
