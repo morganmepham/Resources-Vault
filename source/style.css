@@ -16,7 +16,7 @@ html{
     color: #033941;
     text-shadow: #01262B -0.2rem -0.05rem;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .lock-emoji{
     font-size: 4rem;
@@ -152,14 +152,35 @@ html{
 }
 
 
+
+/*opening boxes*/
+.unlocked-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .unlocked-html{
     height: 40rem;
     width: 70rem;
     background-color: #3EBC3C;
     border-radius: 6rem;
     grid-column: 1/4;
-    z-index: 3;
-
     display: none;
-
+}
+.unlocked-css{
+    height: 40rem;
+    width: 70rem;
+    background-color: #1CA7D2;
+    border-radius: 6rem;
+    grid-column: 1/4;
+    display: none;
+}
+.unlocked-js{
+    height: 40rem;
+    width: 70rem;
+    background-color: #966BB8;
+    border-radius: 6rem;
+    grid-column: 1/4;
+    display: none;
 }
