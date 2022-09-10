@@ -3,7 +3,7 @@ const passwordRequestDiv = document.querySelector('.password-request')
 const unlockedDiv = document.querySelector('.vault-container')
 const passwordSubmitButton = document.querySelector('.password-submit')
 const passwordInput = document.querySelector('.password-input')
-let passwordOfTheDay = '1289'
+let passwordOfTheDay = '1234'
 
 //Unlock Vault
 function lockClick(){
@@ -45,7 +45,7 @@ function displayInfo(e){
     const cssInfo = document.querySelector('.unlocked-css')
     const jsInfo = document.querySelector('.unlocked-js')
     const targetClass = e.target.classList
-
+try{
     if(targetClass[0] === 'HTML-vault' || targetClass[0] === 'HTML-title' || targetClass[0] === 'html-emoji'){
         htmlInfo.style.display = 'block'
         unlockedDiv.style.display = 'none'
@@ -57,4 +57,8 @@ function displayInfo(e){
         jsInfo.style.display = 'block'
         unlockedDiv.style.display = 'none'
     }
+}catch(error){
+    console.log(error)
+}
+
 }

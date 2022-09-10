@@ -11,12 +11,29 @@ html{
 }
 
 /* Title */
+.title-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.back-button{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.back-button-text{
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    font-size: 2.2rem;
+
+}
 .title{
+    grid-column: 2/3;
     font-size: 4rem;
     color: #033941;
     text-shadow: #01262B -0.2rem -0.05rem;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4.2rem;
 }
 .lock-emoji{
     font-size: 4rem;
@@ -160,27 +177,68 @@ html{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.list-item:hover{
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #FFF;
+}
+
+/*html unlocked*/
 .unlocked-html{
-    height: 40rem;
+    height: 28rem;
     width: 70rem;
     background-color: #3EBC3C;
     border-radius: 6rem;
     grid-column: 1/4;
     display: none;
+    margin: 1.5rem;
+
+    border: #3A9900 double 2rem;
 }
+
+/*CSS unlocked*/
 .unlocked-css{
-    height: 40rem;
+    height: 32rem;
     width: 70rem;
     background-color: #1CA7D2;
     border-radius: 6rem;
     grid-column: 1/4;
     display: none;
+    margin: 1.5rem;
+
+    border: #0D7494 double 2rem;
 }
+/*Js unlocked*/
 .unlocked-js{
-    height: 40rem;
+    height: 30rem;
     width: 70rem;
     background-color: #966BB8;
     border-radius: 6rem;
     grid-column: 1/4;
     display: none;
+    margin: 1.5rem;
+
+    border: #A14FE1 double 2rem;
 }
+/* unclocked applies to all*/
+.resources-title{
+    position: relative;
+    top: 1rem;
+    font-size: 2.4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.list{
+    position: relative;
+    top: 4rem;
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+
