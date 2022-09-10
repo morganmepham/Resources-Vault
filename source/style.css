@@ -17,7 +17,7 @@ html{
 }
 .back-button{
     grid-column: 1/2;
-    display: flex;
+    display: none;
     justify-content: end;
     align-items: flex-end;
 }
@@ -25,7 +25,13 @@ html{
     margin-bottom: 1rem;
     margin-right: 3rem;
     font-size: 2.2rem;
-
+    display: none;
+}
+.back-button-text:hover{
+    font-size: 2.7rem;
+}
+.back-button-text:active{
+    font-size: 2rem;
 }
 .title{
     grid-column: 2/3;
