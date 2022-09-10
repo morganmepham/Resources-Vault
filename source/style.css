@@ -79,8 +79,8 @@ html{
     height: 41%;
     width: 15%;
     margin-left: 5%;
-    text-align: center;
-    background-color: #FFF;
+    /* text-align: center;
+    background-color: #FFF; */
     justify-content: center;
     align-items: center;
 
