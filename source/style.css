@@ -48,19 +48,28 @@ html{
     width: 70%;
     font-size: 2.7rem;
 }
+.password-input:focus{
+    outline: none;
+}
 .password-submit{
+    display: flex;
     height: 41%;
     width: 15%;
     margin-left: 5%;
-
+    text-align: center;
     background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+
+    border: #000 solid 0.2rem;
+    border-radius: 1.2rem;
 }
 .password-submit:hover{
     animation-name: passwordSubmitColor;
-    animation-duration: 1s;
-    animation-delay: 50ms;
+    animation-duration: 400ms;
     animation-fill-mode: forwards;
 }
+
 
 /*Unlocked Body*/
 .vault-container{
@@ -136,13 +145,6 @@ html{
 
 
 /* test */
-
-.HTML-unlocked-div{
-    width: 30rem;
-    height: 30rem;
-    background-color: peru;
-}
-
 
 @keyframes passwordSubmitColor {
     from {background-color: #FFF;}
