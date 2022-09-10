@@ -13,7 +13,7 @@ html{
 /* Title */
 .title-box{
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .back-button{
     grid-column: 1/2;
@@ -322,7 +322,7 @@ a{
 
 @media only screen and (min-width: 330px) and (max-width: 480px){
     html{
-        font-size: 12px;
+        font-size: 10px;
     }
     .lock-emoji{
         left: 44%;
