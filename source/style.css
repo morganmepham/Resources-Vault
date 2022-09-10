@@ -150,3 +150,16 @@ html{
     from {background-color: #FFF;}
     to {background-color: #3EBC3C;}
 }
+
+
+.unlocked-html{
+    height: 40rem;
+    width: 70rem;
+    background-color: #3EBC3C;
+    border-radius: 6rem;
+    grid-column: 1/4;
+    z-index: 3;
+
+    display: none;
+
+}
